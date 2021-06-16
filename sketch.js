@@ -16,21 +16,21 @@ var sStop,cStop
 var fail,hit,life1,life2,jumppp
 var liferand
 function preload(){
-    candyImg = loadAnimation("Images/candy1.png","Images/candy2.png")
-    sandyImg = loadAnimation("Images/sandy1.png","Images/sandy2.png")
-    bg = loadImage("Images/bg.png")
-    ob1 = loadImage("Images/ob1.png")
-    ob2 = loadImage("Images/ob2.png")
-    ob3 = loadImage("Images/ob3.png")
-    lifeImg = loadImage("Images/life.png")
-    gameover = loadImage("Images/gameover.png")
-    sStop = loadAnimation("Images/sandy1.png")
-    cStop = loadAnimation("Images/candy1.png")
-    fail = loadSound("Sounds/fail.mp3")
-    hit = loadSound("Sounds/hit.wav")
-    life1 = loadSound("Sounds/life1.mp3")
-    life2 = loadSound("Sounds/life2.mp3")
-    jumppp =loadSound("Sounds/jumppp.mp3")
+    candyImg = loadAnimation("candy1.png","candy2.png")
+    sandyImg = loadAnimation("sandy1.png","sandy2.png")
+    bg = loadImage("bg.png")
+    ob1 = loadImage("ob1.png")
+    ob2 = loadImage("ob2.png")
+    ob3 = loadImage("ob3.png")
+    lifeImg = loadImage("life.png")
+    gameover = loadImage("gameover.png")
+    sStop = loadAnimation("sandy1.png")
+    cStop = loadAnimation("candy1.png")
+    fail = loadSound("fail.mp3")
+    hit = loadSound("hit.wav")
+    life1 = loadSound("life1.mp3")
+    life2 = loadSound("life2.mp3")
+    jumppp =loadSound("jumppp.mp3")
 }
 
 function setup(){    
